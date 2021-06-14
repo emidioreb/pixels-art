@@ -1,15 +1,22 @@
 body{
+  text-align: -webkit-center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+#title{
+  font-size: 100px;
 }
 
 #color-palette{
-  display: flex;
+  display: inline-flex;
+  
 }
 
 .color{
   border: 1px solid black;
-  margin-left: 30px;
-  padding: 40px;
+  margin-left: 10px;
+  padding: 30px;
+  border-radius: 30%;
 }
 
 .red{
@@ -24,19 +31,16 @@ body{
 .blue{
   background-color: blue;
 }
-
-.pixel{
-  border: 1px solid black;
-  width: 40px;
-  height: 40px;
-  background-color: white;
-
+.green{
+  background-color: green;
+}
+.orange{
+  background-color: orange; 
+}
+.pink{
+  background-color: pink; 
 }
 
-#pixel-board{
-  margin: 40px;
+.gray{
+  background-color: #525252;;
 }
-
-/* .selected{
-  background-color: black;
-} */
