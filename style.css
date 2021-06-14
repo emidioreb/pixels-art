@@ -1,0 +1,42 @@
+body{
+
+}
+
+#color-palette{
+  display: flex;
+}
+
+.color{
+  border: 1px solid black;
+  margin-left: 30px;
+  padding: 40px;
+}
+
+.red{
+  background-color: red;
+}
+.black{
+  background-color: black;
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+
+.pixel{
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+
+}
+
+#pixel-board{
+  margin: 40px;
+}
+
+/* .selected{
+  background-color: black;
+} */
