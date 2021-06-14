@@ -1,6 +1,8 @@
 const colors = document.querySelectorAll('.color');
 const palette = document.querySelector('#color-palette');
 
+
+// add selected and remove selected
 palette.addEventListener('click', function (event){
   if(event.target.classList.contains('color')){
     colors.forEach(function(_, index){
@@ -9,7 +11,7 @@ palette.addEventListener('click', function (event){
     event.target.classList.add("selected");
   }
 })
-//
+// fazer o link entre o selected e a cor escolhida
 const pixelColor = document.querySelectorAll(".pixel");
 
 function print(){
